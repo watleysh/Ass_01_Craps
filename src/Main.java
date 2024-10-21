@@ -1,7 +1,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class Main {
+public class Main{
     public static void main(String[] args) {
         Random random = new Random();
         Scanner scanner = new Scanner(System.in);
@@ -33,7 +33,7 @@ public class Main {
                         System.out.println("You made the point, you are the winner!");
                         break;
                     } else if (dieSum == 7) {
-                        System.out.println("You lost!");
+                        System.out.println("You got a 7 and lost!");
                         break;
                     } else {
                         System.out.println("Trying for point...");

@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42a0e505-7be7-4e88-b750-945491afa7f1" name="Changes" comment="initial commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="42a0e505-7be7-4e88-b750-945491afa7f1" name="Changes" comment="2nd  commit.">
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +15,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/watleysh/Ass_01_Craps.git",
+    "accountId": "a42b98a4-7e1c-49ac-ac8d-45a1affc64d4"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 7
 }]]></component>
@@ -51,11 +56,37 @@
       <option name="project" value="LOCAL" />
       <updated>1729470852471</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2nd  commit">
+      <option name="closed" value="true" />
+      <created>1729479963965</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729479963965</updated>
+    </task>
+    <task id="LOCAL-00003" summary="2nd  commit">
+      <option name="closed" value="true" />
+      <created>1729479972061</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1729479972061</updated>
+    </task>
+    <task id="LOCAL-00004" summary="2nd  commit.">
+      <option name="closed" value="true" />
+      <created>1729479982882</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1729479982882</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="2nd  commit" />
+    <MESSAGE value="2nd  commit." />
+    <option name="LAST_COMMIT_MESSAGE" value="2nd  commit." />
   </component>
 </project>
