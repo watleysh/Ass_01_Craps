@@ -10,29 +10,29 @@ public class Main{
         do {
             int die1 = random.nextInt(6) + 1;
             int die2 = random.nextInt(6) + 1;
-            int dieSum = die1 + die2;
+            int crapsRoll = die1 + die2;
 
-            System.out.println("You rolled " + die1 + " and " + die2 + " = " + dieSum);
+            System.out.println("You rolled " + die1 + " and " + die2 + " = " + crapsRoll);
 
-            if (dieSum == 2 || dieSum == 3 || dieSum == 12) {
+            if (crapsRoll == 2 || crapsRoll == 3 || crapsRoll == 12) {
                 System.out.println("Crapped out, you lost,game over!");
-            } else if (dieSum == 7 || dieSum == 11) { // Corrected to 11
+            } else if (crapsRoll == 7 || crapsRoll == 11) { // Corrected to 11
                 System.out.println("Natural, you win, game over!");
             } else {
-                int point = dieSum;
+                int point = crapsRoll;
                 System.out.println("The point is " + point);
 
                 while (true) {
                     die1 = random.nextInt(6) + 1;
                     die2 = random.nextInt(6) + 1;
-                    dieSum = die1 + die2;
+                    crapsRoll = die1 + die2;
 
-                    System.out.println("You rolled " + die1 + " and " + die2 + " = " + dieSum);
+                    System.out.println("You rolled " + die1 + " and " + die2 + " = " + crapsRoll);
 
-                    if (dieSum == point) {
+                    if (crapsRoll == point) {
                         System.out.println("You made the point, you are the winner!");
                         break;
-                    } else if (dieSum == 7) {
+                    } else if (crapsRoll == 7) {
                         System.out.println("You got a 7 and lost!");
                         break;
                     } else {
